@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+header .navigasi .bagian-logo {
+  padding-top: 40px;
+  padding-bottom: 18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+header .navigasi .bagian-logo img {
+  width: 175px;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.konten {
+  margin-bottom: 90px;
+}
+
+.konten .bagian-konten {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.konten .bagian-konten .left h1 {
+  margin-left: 30px;
+  margin-top: 60px;
+  font-family: Roboto;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.konten .bagian-konten .left p {
+  text-align: left;
+  font-family: Roboto;
+  margin-left: 30px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 530px;
+}
+
+.konten .bagian-konten .left button {
+  margin-left: 30px;
+  margin-top: 38px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  width: 250px;
+  height: 55px;
+  border-radius: 28px;
+  border: none;
+  background: #ff6363;
+}
+
+.konten .bagian-konten .left button:hover {
+  border: 2px solid #ff6363;
+  background: #ffffff;
+  color: #ff6363;
+}
+
+.konten .bagian-konten .right {
+  padding-left: 35px;
+}
